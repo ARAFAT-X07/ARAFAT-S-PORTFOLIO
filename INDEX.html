@@ -1,0 +1,231 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arafat | Personal Portfolio</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: #0b1120;
+            color: white;
+            line-height: 1.6;
+        }
+
+        header {
+            background: #111c32;
+            padding: 18px 8%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+        header h2 {
+            color: #38bdf8;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin-left: 20px;
+        }
+
+        nav a:hover {
+            color: #38bdf8;
+        }
+
+        section {
+            padding: 65px 8%;
+        }
+
+        .hero {
+            min-height: 85vh;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 35px;
+            flex-wrap: wrap;
+        }
+
+        .hero h1 {
+            font-size: 48px;
+            margin: 10px 0;
+        }
+
+        .hero h1 span {
+            color: #38bdf8;
+        }
+
+        .hero p {
+            color: #cbd5e1;
+            max-width: 550px;
+        }
+
+        .photo {
+            width: 250px;
+            height: 250px;
+            border-radius: 50%;
+            border: 5px solid #38bdf8;
+            object-fit: cover;
+        }
+
+        .btn {
+            display: inline-block;
+            margin-top: 22px;
+            padding: 12px 25px;
+            background: #0284c7;
+            color: white;
+            text-decoration: none;
+            border-radius: 7px;
+        }
+
+        h2 {
+            color: #38bdf8;
+            margin-bottom: 20px;
+        }
+
+        .card {
+            background: #17243b;
+            padding: 25px;
+            border-radius: 12px;
+            margin: 15px 0;
+        }
+
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 12px;
+        }
+
+        .skills span {
+            background: #17243b;
+            padding: 12px 22px;
+            border-radius: 8px;
+            border: 1px solid #0284c7;
+        }
+
+        footer {
+            text-align: center;
+            padding: 25px;
+            background: #111c32;
+            color: #cbd5e1;
+        }
+
+        @media(max-width: 650px) {
+            header {
+                gap: 15px;
+            }
+
+            nav a {
+                margin: 0 10px 0 0;
+            }
+
+            .hero h1 {
+                font-size: 36px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h2>ARAFAT</h2>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<section class="hero" id="home">
+    <div>
+        <p>Hello, I'm</p>
+        <h1><span>ARAFAT</span></h1>
+        <h3>CSE Student & Aspiring Developer</h3>
+        <p>
+            I am a Computer Science and Technology student
+            passionate about programming and web development.
+            I love learning new technologies and building projects.
+        </p>
+        <a href="#about" class="btn">Explore More</a>
+    </div>
+
+    <!-- Put your photo in the same folder and name it arafat.jpg -->
+<img src="./WhatsApp Image 2026-11-16 at 11.53.20 PM.jpeg"
+     alt="Arafat's Photo"
+     class="photo"></section>
+
+<section id="about">
+    <h2>About Me</h2>
+    <div class="card">
+        <p><b>Name:</b> Arafat</p>
+        <p><b>Roll Number:</b> 221167</p>
+        <p><b>Age:</b> 19 Years</p>
+        <p><b>Semester:</b> 4th Semester</p>
+        <p><b>Institute:</b> Kushtia Polytechnic Institute</p>
+        <p><b>Department:</b> Computer Science & Technology</p>
+        <p>
+            I am currently improving my programming skills
+            and learning modern web development technologies.
+        </p>
+    </div>
+</section>
+
+<section id="skills">
+    <h2>My Skills</h2>
+    <div class="skills">
+        <span>Python</span>
+        <span>Java</span>
+        <span>HTML</span>
+        <span>CSS</span>
+        <span>JavaScript</span>
+        <span>Web Development</span>
+    </div>
+</section>
+
+<section id="projects">
+    <h2>My Projects</h2>
+
+    <div class="card">
+        <h3>Student Management System</h3>
+        <p>
+            A student management project developed
+            to manage student information and academic records.
+        </p>
+    </div>
+
+    <div class="card">
+        <h3>More Projects Coming Soon</h3>
+        <p>I am learning and working on new projects.</p>
+    </div>
+</section>
+
+<section id="contact">
+    <h2>Contact Me</h2>
+    <div class="card">
+        <p>Mobile No. : 01840331268</p>
+        <p>Email: mdarafat997@gmail.com</p>
+        
+    </div>
+</section>
+
+<footer>
+    <p>© 2026 Arafat | Personal Portfolio</p>
+    <p>Made with HTML, CSS & JavaScript</p>
+</footer>
+
+</body>
+</html>
